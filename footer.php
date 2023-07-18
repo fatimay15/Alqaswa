@@ -22,8 +22,8 @@
     <div class="row gy-4">
       <div class="col-lg-5 col-md-12 footer-info">
         <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/logo.png" alt="">
-          <span>FlexStart</span>
+          <img src="assets/img/al-logo.png" alt="">
+          <!-- <span>FlexStart</span> -->
         </a>
         <p>
         Unleashing potential through advanced polymer technology. Experience excellence with Alqaswa Polymers. Empowering industries, driving innovation, and delivering sustainable solutions.
