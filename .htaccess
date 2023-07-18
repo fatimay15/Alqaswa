@@ -1,0 +1,7 @@
+RewriteEngine On
+DirectoryIndex index.php index.phtml index.html index.htm
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+
+
