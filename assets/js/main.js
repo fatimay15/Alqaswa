@@ -294,29 +294,4 @@
 
 })();
 
-document.addEventListener('DOMContentLoaded', function() {
-  var images = document.querySelectorAll('.slider-img');
-  var currentIndex = 0;
 
-  function changeImage() {
-    // Hide the current image
-    images[currentIndex].classList.remove('active');
-
-    // Increment the index
-    currentIndex++;
-    if (currentIndex >= images.length) {
-      currentIndex = 0;
-    }
-
-    // Show the next image
-    images[currentIndex].classList.add('active');
-  }
-
-  // Call the changeImage function every 5 seconds (5000 milliseconds)
-  setInterval(changeImage, 5000);
-});
-
-  var carousel = new bootstrap.Carousel(document.getElementById('carousel'), {
-    interval: 5000, // Set the desired interval between slides (in milliseconds)
-    // Add any other carousel options you need
-  });
