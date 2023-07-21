@@ -24,16 +24,13 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <!-- Template Main CSS File -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
 
-  <!-- =======================================================
-  * Template Name: FlexStart
-  * Updated: Jun 19 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -51,20 +48,10 @@
         <ul>
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="about-us">About</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="contact">Contact</a></li> -->
-          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+          
           <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
+             
               <li><a href="paint">Paint</a></li>
               <li><a href="textile">Textile</a></li>
               <li><a href="wood">Wood</a></li>
@@ -75,30 +62,7 @@
             </ul>
           </li>
 
-          <!-- <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li>
-                <a href="#">Column 1 link 1</a>
-                <a href="#">Column 1 link 2</a>
-                <a href="#">Column 1 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 2 link 1</a>
-                <a href="#">Column 2 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 3 link 1</a>
-                <a href="#">Column 3 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <a href="#">Column 4 link 1</a>
-                <a href="#">Column 4 link 2</a>
-                <a href="#">Column 4 link 3</a>
-              </li>
-            </ul>
-          </li> -->
+        
 
           <li><a class="nav-link scrollto" href="contact">Contact</a></li>
           <!-- <li><a class="getstarted scrollto" href="#about">Get Started</a></li> -->
@@ -111,32 +75,20 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 d-flex flex-column justify-content-center">
-        <h1 data-aos="fade-up">Crafting Quality Adhesives and Resins</h1>
-        <h2 data-aos="fade-up" data-aos-delay="400">
-          Redefining Industry Standards
-        </h2>
-        <div data-aos="fade-up" data-aos-delay="600">
-          <div class="text-center text-lg-start">
-            <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-              <span>Get Started</span>
-              <i class="bi bi-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-        <img src="assets/img/paint.png" class="img-fluid slider-img" alt="">
-        <img src="assets/img/about.jpg" class="img-fluid slider-img" alt="">
-        <img src="assets/img/logo.png" class="img-fluid slider-img" alt="">
-      </div>
-    </div>
-  </div>
+  <div class="slider">
+  <div class="slider-image" style="background-image:url('https://placehold.co/1280x500');"></div>
+  <div class="slider-image" style="background-image:url('https://placehold.co/1280x500');"></div>
+  <div class="slider-image" style="background-image:url('https://placehold.co/1280x500');"></div>
+</div>
 </section>
-<!-- End Hero -->
-<!-- ======= Hero Section ======= -->
 
-
-      <!-- End Hero -->
+<script>
+  $(document).ready(function(){
+  $('.slider').slick({
+    // "autoplay":true,
+    "prevArrow":'<img src="assets/img/previous.png" class="arrow prev-arrow"/>',
+    "nextArrow":'<img src="assets/img/next.png" class="arrow next-arrow"/>',
+    
+  });
+});
+</script>
