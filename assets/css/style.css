@@ -48,11 +48,14 @@ section {
 {
   min-width: 100%;
   position: relative;
+  margin-top: 20px;
 }
 .slider-image
 {
   width: 100%;
   min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .arrow
 {
