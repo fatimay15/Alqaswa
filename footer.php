@@ -42,7 +42,7 @@
           <li><i class="bi bi-chevron-right"></i> <a href="/">Home</a></li>
           <li><i class="bi bi-chevron-right"></i> <a href="about-us">About us</a></li>
           <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-          <li><i class="bi bi-chevron-right"></i> <a href="career">Contact Us</a></li>
+          <!-- <li><i class="bi bi-chevron-right"></i> <a href="career">Contact Us</a></li> -->
           <li><i class="bi bi-chevron-right"></i> <a href="contact">Contact Us</a></li>
         </ul>
       </div>
